@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_post_quiz"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avinashdavid.trivialtrivia.UI.ActivityPostQuiz"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="?attr/actionBarSize"
+                                       android:background="@color/colorPrimary"
+                                       android:layout_alignParentTop="true"
+                                       app:title="@string/results"
+                                       android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                                       app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <!--<ScrollView-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_width="match_parent"-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+        <LinearLayout
+            android:layout_below="@+id/toolbar"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/scoreTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:layout_gravity="bottom"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_gravity="bottom"/>
+
+                <TextView
+                    android:id="@+id/quizLengthTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    />
+
+            </LinearLayout>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/cards_listview"
+                android:divider="@android:color/transparent"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/StatsLabels"
+                    android:text="@string/average_time_right"/>
+
+                <TextView
+                    android:id="@+id/timeright_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/StatsContent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/StatsLabels"
+                    android:text="@string/average_time_wrong"/>
+
+                <TextView
+                    android:id="@+id/timewrong_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/StatsContent"/>
+
+            </LinearLayout>
+            <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+            <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+            <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+            <!--android:paddingTop="@dimen/activity_vertical_margin"/>-->
+
+
+        </LinearLayout>
+
+    <!--</ScrollView>-->
+
+</RelativeLayout>
+

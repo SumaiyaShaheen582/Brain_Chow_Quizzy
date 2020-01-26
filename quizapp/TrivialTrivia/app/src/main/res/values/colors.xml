@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7E57C2</color>
+    <color name="colorPrimaryDark">#673AB7</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cardTitle">#4527A0</color>
+    <color name="wrongAnswerRed">#D50000</color>
+    <color name="correctAnswerGreen">#99CC00</color>
+
+    <color name="darker_gray">#5c5c5c</color>
+    <color name="dark_gray">#6b6b6b</color>
+    <color name="light_gray">#EDE7F6</color>
+    <color name="lightish_gray">#dfd4ef</color>
+
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+</resources>

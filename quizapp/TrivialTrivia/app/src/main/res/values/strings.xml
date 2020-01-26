@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Trivial Trivia</string>
+    <string name="start_game">Start the game</string>
+    <string name="statistics">Statistics</string>
+    <string name="instructions">Instructions</string>
+    <string name="acknowledgements">Acknowledgements</string>
+
+    <!--welcome page subtitles-->
+    <string name="start_subtitle">200 seconds of pain!</string>
+    <string name="statistics_subtitle">They\'re already calculated</string>
+    <string name="instructions_subtitle">Pretty simple, I promise</string>
+    <string name="acknowledgements_subtitle">Question and image sources</string>
+
+    <string name="no_stats">There are no statistics. Please complete a quiz first.</string>
+
+    <!--activity names-->
+    <string name="home">Home</string>
+    <string name="quiz">Quiz</string>
+    <string name="results">Quiz Result</string>
+
+    <!--button bar-->
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+
+    <!--post quiz cards-->
+    <string name="swipe_left_for_answers">Swipe left to view each question, your choice, and the correct answer</string>
+    <string name="question">Question: </string>
+    <string name="you_selected">You selected: </string>
+    <string name="correct_answer">Correct Answer: </string>
+
+    <!--post quiz statistics-->
+    <string name="average_time_right_answers">Average time taken on right answers</string>
+    <string name="average_time_wrong_answers">Average time taken on wrong answers</string>
+
+
+    <!--statistics headers-->
+    <string name="overall_performance">Overall Performance</string>
+    <string name="averages">Overall Statistics</string>
+    <string name="category_records">Category Statistics</string>
+
+    <!--statistics names-->
+    <string name="total_quizzes">Total number of quizzes </string>
+    <string name="highest_score">Highest score </string>
+    <string name="perfect_quizzes">Perfect quizzes</string>
+
+    <string name="average_score">Average percentage score</string>
+    <string name="average_time_right">Average time on right answers</string>
+    <string name="average_time_wrong">Average time on wrong answers</string>
+
+    <string name="best_category">Best category</string>
+    <string name="worst_category">Worst category</string>
+    <string name="format_best_and_worst_categories">%1$s (%2$d%%)</string>
+    
+    <string name="total_questions_answered">Total answered questions</string>
+    <string name="correctly_answered">Correctly answered questions</string>
+    <string name="percentage_score">Percentage score</string>
+    <string name="average_time_overall">Average time (overall)</string>
+    <string name="full_stats_for">Full Statistics: </string>
+
+    <string name="format_percent">%1$.2f%%</string>
+    <string name="format_seconds">%1$.1f seconds</string>
+    <string name="format_integer">%1$.0f</string>
+    <string name="minus_sign">-</string>
+
+    <!--gameplay instructions-->
+    <string name="start_the_quiz">Start the quiz</string>
+    <string name="tap_start_game">Tap on "Start Game" on the Welcome Page</string>
+    <string name="choose_your_answer">Choose your answer</string>
+    <string name="tap_the_answer">Tap on the desired choice to advance the quiz</string>
+    <string name="score_lots_of_points">Score many points</string>
+    <string name="good_luck">Good luck!</string>
+    <string name="warning_exclamation">Warning!</string>
+    <string name="warning_dont_leave_quiz">If you leave the app while attempting a quiz, the current quiz will be ended</string>
+
+    <!--acknowledgments-->
+    <string name="content_acknowledgments">Content Acknowledgments</string>
+    <string name="image_acknowledgments">Image Acknowledgments</string>
+
+    <!--miscellaneous-->
+    <string name="no_choice">(Answer not attempted)</string>
+
+    <string-array name="category_names">
+        <item>General</item>
+        <item>Science</item>
+        <item>World</item>
+        <item>History</item>
+        <item>Entertainment</item>
+        <item>Sports</item>
+    </string-array>
+
+
+</resources>
